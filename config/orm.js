@@ -43,7 +43,7 @@ function objToSql(ob) {
  		queryString += printQuestionMarks(vals.length);
  		queryString += ") ";
 
- 		console.log(queryString);
+ 		// console.log(queryString);
 
  		connection.query(queryString, vals, function(err, result) {
  			if (err) {
@@ -61,7 +61,7 @@ function objToSql(ob) {
  		queryString += " WHERE ";
  		queryString += condition;
 
- 		console.log(queryString);
+ 		// console.log(queryString);
 
  		connection.query(queryString, function(err, result) {
  			if (err) {
