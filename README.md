@@ -2,7 +2,7 @@
 
 ### Overview
 
-In this assignment, I created a web application using MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Utilizing the MVC design pattern, I used Node and MySQL to query and route data, and Handlebars to generate the HTML.
+In this assignment, I created a web application using MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Utilizing the MVC design pattern, I used Node and MySQL to query and route data, and Handlebars to generate the HTML. Styling by using Materialize.
 
 ### What its about
 
@@ -13,3 +13,5 @@ In this assignment, I created a web application using MySQL, Node, Express, Hand
 * Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 
 * The app will store every burger in a database, whether devoured or not.
+
+Play around with this application [here](https://tranquil-river-37892.herokuapp.com/)
